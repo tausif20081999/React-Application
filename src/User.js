@@ -1,10 +1,12 @@
+
+// Function Component
 function User() {
     return (
-        <div className="App">
-
-            <h1>Hello User</h1>
+        <div>
+            <h1>User Component</h1>
         </div>
-    );
+    )
 }
 
-export default User;
+// To use this component we have to export this
+export default User
